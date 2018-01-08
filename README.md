@@ -1,4 +1,5 @@
-"Instructions
+Instructions
+
 1. To get tweets use '/tweets/:screenName' get API where screenName is your Twitter Username
 
 2. To post tweet use '/posttweet' post API where parameters are as below :
@@ -21,4 +22,3 @@
     request_options : {
         proxy : "www.proxy.com" // provide proxy server if any
     }           
-"
