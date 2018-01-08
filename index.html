@@ -1,0 +1,48 @@
+<!-- views/index.ejs -->
+
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body        { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <span>Welcome. Please use post man to check APIs.</span>
+    <br>
+    <div>
+        <h5>Instructions</h5>
+        <p>
+            <pre>1. To get tweets use '/tweets/:screenName' get API where screenName is your Twitter Username
+                <br>
+2. To post tweet use '/posttweet' post API where parameters are as below :
+    - consumerKey
+    - consumerSecret
+    - accessToken
+    - accessTokenSecret
+    - request_options
+    - status
+    where status is which message you want to post as your tweet.
+    <br>
+3. Also add below values to config.json file inorder to use API endpoints :
+    - consumerKey
+    - consumerSecret
+    - accessToken
+    - accessTokenSecret
+    - request_options
+<br>
+4. The format for -request_options is :
+    request_options : {
+        proxy : "www.proxy.com" // provide proxy server if any
+    }    
+            </pre>
+        </p>
+    </div>
+</div>
+</body>
+</html>  

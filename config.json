@@ -1,0 +1,10 @@
+{
+    "consumerKey" : "your_consumer_key", 
+    "consumerSecret" : "your_consumer_key_secret",
+    "accessToken" : "your_access_token",
+    "accessTokenSecret" : "your_access_token_secret",
+    "request_options": {
+        "proxy": "your_proxy_server"
+    },
+    "limit" : 5 // limit of response data
+}
